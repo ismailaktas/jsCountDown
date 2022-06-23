@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geri Sayım</title>
+    <link rel="stylesheet" href="countDown.css" />
+</head>
+<body>
+
+    <table>
+        <tr>
+            <td colspan="4">
+                <h3>Geri Sayım</h3>
+            </td>
+        </tr>
+        <tr id="trCountDown">
+            <td>Saniye</td>
+            <td>:</td>
+            <td><input type="number" name="txtSecond" id="txtSecond" placeholder="Saniye, Örn:60"></td>
+            <td>
+                <input type="button" value="Başlat" class="btn" id="btnStart">
+                <input type="button" value="Bitir" class="btn" id="btnEnd">
+            </td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>
+                <div id="dvCountDownContainer">
+                    <div class="dvCountDown">
+                        00:00
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+       
+    <script type="text/javascript" src="countDown.js"></script>
+</body>
+</html>

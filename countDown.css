@@ -1,0 +1,39 @@
+body {
+    margin: 20px;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input {
+    border: 1px solid rgb(34, 111, 144);
+    padding: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 120px;
+}
+
+input.btn {
+    background-color: rgb(41, 77, 103);
+    color: #ffffff;
+    cursor: pointer;
+    width: 100px;
+}
+
+.dvCountDown {
+    font-size: 22px;
+    color: #ffffff;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    width: 100px;
+    background-color: rgb(0, 204, 255);
+    margin: 0px auto 0px;
+}
+
+table {
+    border: 2px solid rgb(156, 233, 252);
+    padding: 15px;
+}
+
+td {
+    width: auto;
+}
